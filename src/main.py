@@ -1,9 +1,14 @@
 from textnode import TextNode, TextType
+from htmlnode import HTMLNode, LeafNode, ParentNode
+
+def text_node_to_html_node(TextNode):
+
+    ...
+
 
 def main():
-    dummy_test = TextNode('This is some anchor text', TextType.LINK, 'https://www.boot.dev')
+    ...
 
-    print(repr(dummy_test))
 
 if __name__ == "__main__":
     main()
